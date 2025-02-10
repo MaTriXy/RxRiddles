@@ -1,10 +1,10 @@
 package com.vanniktech.rxriddles
 
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Single
 
 object Riddle14 {
   /**
-   * Retry the given [source] up to three times unless an [IllegalArgumentException] has been emitted.
+   * Try the given [source] up to three times unless an [IllegalArgumentException] has been emitted.
    *
    * Use case: Retry an operation for a number of times or until a valid error occurred.
    */

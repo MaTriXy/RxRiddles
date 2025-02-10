@@ -1,9 +1,9 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle16Solution
-import io.reactivex.subjects.PublishSubject
-import io.reactivex.subjects.SingleSubject
-import org.assertj.core.api.Java6Assertions.assertThat
+import io.reactivex.rxjava3.subjects.PublishSubject
+import io.reactivex.rxjava3.subjects.SingleSubject
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
 /** Solution [Riddle16Solution] */
